@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# NOTE: 'out/' is intentionally NOT ignored — it contains the hand-written,
+# production extension code (out/extension.js) that package.json 'main' points to.
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Generated VSIX artifacts
+*.vsix
+
+# VS Code extension test
+.vscode-test/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
